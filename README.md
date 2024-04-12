@@ -1,6 +1,4 @@
-This is the source repository for Pixeltron Now: Server360’s custom font
-based off of calculator system fonts and is the
-recommended font for old tech.
+# Pixeltron Now
+by Server360
 
-The font family supports English language characters, most Romance language
-alphabets, and most math characters.
+Pixeltron Now is a digitised interpretation of the fonts seen on many calculators and vintage games and software. Originally used for old-web website mocs, this style can also be used for modern projects. Its monospace and monoheight aspects gives it the ability to look uniform on any device, while maintaining consistancy.

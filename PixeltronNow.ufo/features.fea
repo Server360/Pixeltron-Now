@@ -1,0 +1,44 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni0016 \dieresis \guillemotleft \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \uni00B2 \uni00B3 \acute \mu \paragraph 
+	\periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright \onequarter 
+	\onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex \Atilde 
+	\Adieresis \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute 
+	\Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave \aacute 
+	\acircumflex \atilde \adieresis \ae \ccedilla \egrave \eacute \ecircumflex 
+	\edieresis \igrave \iacute \icircumflex \idieresis \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \divide \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \ydieresis \Amacron \amacron \Abreve \abreve \Cacute \cacute 
+	\Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Emacron 
+	\emacron \Ebreve \ebreve \Edotaccent \edotaccent \Ecaron \ecaron \Itilde \itilde 
+	\Imacron \imacron \Ibreve \ibreve \Idotaccent \dotlessi \Jcircumflex 
+	\jcircumflex \Lacute \lacute \Nacute \nacute \Ncaron \ncaron \Omacron \omacron 
+	\Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe \Utilde \utilde \Umacron 
+	\umacron \Ubreve \ubreve \Uhungarumlaut \uhungarumlaut \Wcircumflex 
+	\wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Alpha \Mu \Pi \Upsilon \Chi 
+	\alpha \uni03BC \pi \upsilon \chi \uni1FF7 \uni2010 \uni2011 \figuredash \endash 
+	\emdash \uni2015 \quoteleft \quoteright \quotesinglbase \quotereversed 
+	\quotedblleft \quotedblright \quotedblbase \uni201F \bullet \minute \second 
+	\uni2070 \uni2071 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079 \uni207A 
+	\uni207B \uni207C \uni207D \uni207E \uni2080 \uni2081 \uni2082 \uni2083 \uni2084 
+	\uni2085 \uni2086 \uni2087 \uni2088 \uni2089 \uni208A \uni208B \uni208C \uni208D 
+	\uni208E \uni2150 \uni2151 \uni2152 \onethird \twothirds \uni2155 \uni2156 
+	\uni2157 \uni2158 \uni2159 \uni215A \oneeighth \threeeighths \fiveeighths 
+	\seveneighths \uni215F \uni2186 \uni2189 \arrowleft \arrowup \arrowright 
+	\arrowdown \uni21AD \uni21B1 \uni21B2 \uni21B3 \uni21B4 \carriagereturn 
+	\uni21B6 \uni21B7 \uni21B8 \uni21E6 \uni21E8 \partialdiff \Delta \gradient 
+	\element \suchthat \product \summation \minus \uni2213 \uni2215 \uni2219 
+	\radical \intersection \union \integral \therefore \uni2235 \uni2236 \similar 
+	\uniFFF0 \uniFFF1 \uniFFF2 \uniFFF3 \uniFFF4 \uniFFF5 \uniFFF6 \uniFFF7 \uniFFF8 
+	\uniFFFC \uniFFFD \p.ss01 \q.ss01 \a.ss01 \y.ss01 \x.ss01 \l.ss01 \markingball 
+	\x.sups \y.sups \z.sups \t.sups \a.sups \b.sups \c.sups \pi.sups \x.subs \y.subs 
+	\z.subs \t.subs \a.subs \b.subs \c.subs \pi.subs ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
